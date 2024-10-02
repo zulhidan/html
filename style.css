@@ -1,0 +1,126 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white; /* White background for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.fa {
+    font-size: 50px;
+    color: #007BFF; /* Blue color for icons */
+}
+
+.welcome-heading {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333; /* Dark gray for text */
+}
+
+.dtn-container {
+    margin-bottom: 20px;
+}
+
+.social-media-login {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF; /* Blue color for buttons */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.social-media-login:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.social-media-login i {
+    margin-right: 5px;
+}
+
+.underline-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.underline {
+    flex: 1;
+    height: 1px;
+    background: #ccc; /* Light gray line */
+}
+
+.or-heading {
+    padding: 0 10px;
+    color: #666; /* Medium gray for the "or" text */
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+.input-box {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+}
+
+.input-box:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.login-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF; /* Blue color for the login button */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.forget-password {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #555; /* Dark gray for the link */
+}
+
+.forget-password:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.register {
+    font-size: 14px;
+    color: #666; /* Medium gray for register text */
+}
+
+.register a {
+    color: #007BFF; /* Blue for the register link */
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
